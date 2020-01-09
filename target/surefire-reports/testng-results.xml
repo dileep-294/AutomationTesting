@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="55064" started-at="2020-01-09T18:34:37Z" finished-at="2020-01-09T18:35:32Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="55064" started-at="2020-01-09T18:34:37Z" finished-at="2020-01-09T18:35:32Z">
+      <class name="com.test1.LocaleTimeTest">
+        <test-method status="PASS" signature="loadBefore()[pri:0, instance:com.test1.LocaleTimeTest@2c6a3f77]" name="loadBefore" is-config="true" duration-ms="8612" started-at="2020-01-09T18:34:37Z" finished-at="2020-01-09T18:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBefore -->
+        <test-method status="PASS" signature="gettingLocalTime()[pri:0, instance:com.test1.LocaleTimeTest@2c6a3f77]" name="gettingLocalTime" duration-ms="2795" started-at="2020-01-09T18:34:45Z" description="Getting the Time of a particular city" finished-at="2020-01-09T18:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingLocalTime -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.test1.LocaleTimeTest@2c6a3f77]" name="exit" is-config="true" duration-ms="123" started-at="2020-01-09T18:34:48Z" finished-at="2020-01-09T18:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.test1.LocaleTimeTest -->
+      <class name="com.test.SampleTest">
+        <test-method status="PASS" signature="loadBefore()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBefore" is-config="true" duration-ms="648" started-at="2020-01-09T18:34:48Z" finished-at="2020-01-09T18:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBefore -->
+        <test-method status="PASS" signature="loadBeforeMethod()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBeforeMethod" is-config="true" duration-ms="6299" started-at="2020-01-09T18:34:49Z" finished-at="2020-01-09T18:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBeforeMethod -->
+        <test-method status="PASS" signature="addFirstCity()[pri:0, instance:com.test.SampleTest@246ae04d]" name="addFirstCity" duration-ms="63" started-at="2020-01-09T18:34:55Z" description="Adding First zone and verifying it" finished-at="2020-01-09T18:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstCity -->
+        <test-method status="PASS" signature="loadBeforeMethod()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBeforeMethod" is-config="true" duration-ms="4425" started-at="2020-01-09T18:34:55Z" finished-at="2020-01-09T18:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBeforeMethod -->
+        <test-method status="PASS" signature="addSecondCity()[pri:0, instance:com.test.SampleTest@246ae04d]" name="addSecondCity" duration-ms="49" started-at="2020-01-09T18:35:00Z" description="Adding second city and verifying" finished-at="2020-01-09T18:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSecondCity -->
+        <test-method status="PASS" signature="loadBeforeMethod()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBeforeMethod" is-config="true" duration-ms="4297" started-at="2020-01-09T18:35:00Z" finished-at="2020-01-09T18:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBeforeMethod -->
+        <test-method status="PASS" signature="deleteTimeZone()[pri:0, instance:com.test.SampleTest@246ae04d]" name="deleteTimeZone" duration-ms="1282" started-at="2020-01-09T18:35:04Z" description="Deleting the Citie" finished-at="2020-01-09T18:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTimeZone -->
+        <test-method status="PASS" signature="loadBeforeMethod()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBeforeMethod" is-config="true" duration-ms="4021" started-at="2020-01-09T18:35:05Z" finished-at="2020-01-09T18:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBeforeMethod -->
+        <test-method status="PASS" signature="modifyDate()[pri:0, instance:com.test.SampleTest@246ae04d]" name="modifyDate" duration-ms="3361" started-at="2020-01-09T18:35:09Z" description="Modifying the date of cities" finished-at="2020-01-09T18:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyDate -->
+        <test-method status="PASS" signature="loadBeforeMethod()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBeforeMethod" is-config="true" duration-ms="4147" started-at="2020-01-09T18:35:13Z" finished-at="2020-01-09T18:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBeforeMethod -->
+        <test-method status="PASS" signature="pageTitle()[pri:0, instance:com.test.SampleTest@246ae04d]" name="pageTitle" duration-ms="51" started-at="2020-01-09T18:35:17Z" description="Verifying whether the page is loaded correctly or not" finished-at="2020-01-09T18:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitle -->
+        <test-method status="PASS" signature="loadBeforeMethod()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBeforeMethod" is-config="true" duration-ms="4062" started-at="2020-01-09T18:35:17Z" finished-at="2020-01-09T18:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBeforeMethod -->
+        <test-method status="PASS" signature="permanantLink()[pri:0, instance:com.test.SampleTest@246ae04d]" name="permanantLink" duration-ms="586" started-at="2020-01-09T18:35:21Z" description="Checking permanantLink" finished-at="2020-01-09T18:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- permanantLink -->
+        <test-method status="PASS" signature="loadBeforeMethod()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBeforeMethod" is-config="true" duration-ms="4077" started-at="2020-01-09T18:35:21Z" finished-at="2020-01-09T18:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBeforeMethod -->
+        <test-method status="PASS" signature="swapButton()[pri:0, instance:com.test.SampleTest@246ae04d]" name="swapButton" duration-ms="1583" started-at="2020-01-09T18:35:26Z" description="Verifying Swap Button" finished-at="2020-01-09T18:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swapButton -->
+        <test-method status="PASS" signature="loadBeforeMethod()[pri:0, instance:com.test.SampleTest@246ae04d]" name="loadBeforeMethod" is-config="true" duration-ms="4332" started-at="2020-01-09T18:35:27Z" finished-at="2020-01-09T18:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBeforeMethod -->
+        <test-method status="PASS" signature="timeDifference()[pri:0, instance:com.test.SampleTest@246ae04d]" name="timeDifference" duration-ms="46" started-at="2020-01-09T18:35:31Z" description="fetching times of two different zones and calculating the TimeDifference" finished-at="2020-01-09T18:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeDifference -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.test.SampleTest@246ae04d]" name="exit" is-config="true" duration-ms="177" started-at="2020-01-09T18:35:32Z" finished-at="2020-01-09T18:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.test.SampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

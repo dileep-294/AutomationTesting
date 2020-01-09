@@ -1,0 +1,7 @@
+1)Verifying page title
+2)Inserting Time Zones
+2)Deleting the TimeZone
+4)Swap
+5)Calendar
+6)Permanant link
+7)
