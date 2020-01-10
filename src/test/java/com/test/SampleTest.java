@@ -29,8 +29,9 @@ public class SampleTest {
         //webDriver.get("https://savvytime.com/converter");
     }
 
-    @Parameters({"firstTimeZone","secondTimeZone"})
+
     @BeforeMethod
+    @Parameters({"firstTimeZone","secondTimeZone"})
     public void loadBeforeMethod(String firstTimeZone,String secondTimeZone){
         webDriver.get("https://savvytime.com/converter");
         webDriver.findElement(By.xpath("//input[@placeholder='Add Time Zone, City or Town']")).sendKeys(firstTimeZone);
@@ -71,7 +72,7 @@ public class SampleTest {
         Date date1=simpleDateFormat.parse(timeZoneElements.get(0).getAttribute("value"));
         Date date2 = simpleDateFormat.parse(timeZoneElements.get(1).getAttribute("value"));
         int timeDifference = (int) (Math.abs(date1.getTime()-date2.getTime())/60000);
-        Assert.assertEquals(timeDifference,1110,"Expected result 330 but found "+timeDifference);
+        Assert.assertEquals(timeDifference,330,"Expected result 330 but found "+timeDifference);
     }
 
 

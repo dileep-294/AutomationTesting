@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.test.SampleTest">
+        <methods>
+          <include name="modifyDate"/>
+          <include name="exit"/>
+          <include name="pageTitle"/>
+          <include name="permanantLink"/>
+          <include name="addFirstCity"/>
+          <include name="swapButton"/>
+          <include name="loadBeforeMethod"/>
+          <include name="addSecondCity"/>
+          <include name="deleteTimeZone"/>
+          <include name="timeDifference"/>
+          <include name="loadBefore"/>
+        </methods>
+      </class> <!-- com.test.SampleTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
