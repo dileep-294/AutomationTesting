@@ -1,5 +1,6 @@
 package com.test;
 
+import com.opencsv.CSVReader;
 import io.github.bonigarcia.wdm.DriverManagerType;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -9,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -21,18 +24,28 @@ public class SampleTest {
 
     WebDriver webDriver;
 
+    String CSvFile = "/home/dileepj/IdeaProjects/tasks/testing/src/test/java/com/TestData.csv";
+    String firstTimeZone,secondTimeZone;
+
     @BeforeClass
-    public void loadBefore(){
+    public void loadBefore() throws IOException {
         WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //webDriver.get("https://savvytime.com/converter");
+        CSVReader csvReader = new CSVReader(new FileReader(CSvFile));
+        String [] cell;
+        while((cell=csvReader.readNext())!=null) {
+            for (int i = 0; i < 1; i++) {
+                firstTimeZone = cell[i];
+                secondTimeZone = cell[i + 1];
+            }
+        }
     }
 
-
     @BeforeMethod
-    @Parameters({"firstTimeZone","secondTimeZone"})
-    public void loadBeforeMethod(String firstTimeZone,String secondTimeZone){
+    //@Parameters({"firstTimeZone","secondTimeZone"})
+    public void loadBeforeMethod(){//(String firstTimeZone,String secondTimeZone){
         webDriver.get("https://savvytime.com/converter");
         webDriver.findElement(By.xpath("//input[@placeholder='Add Time Zone, City or Town']")).sendKeys(firstTimeZone);
         webDriver.findElements(By.xpath("//div[@id='converter-quick-search-result']//a")).get(0).click();
@@ -48,17 +61,17 @@ public class SampleTest {
     }
 
     @Test(description = "Adding First zone and verifying it")
-    @Parameters({"firstTimeZone"})
-    public void addFirstCity(String firstTimeZone)
+    //@Parameters({"firstTimeZone"})
+    public void addFirstCity()//(String firstTimeZone)
     {
         WebElement element = webDriver.findElement(By.xpath("//h1[@class='title']"));
         Assert.assertTrue(element.getText().contains(firstTimeZone),
                 "Expected text contains Hyderabad but found"+element.getText());
     }
 
-    @Parameters({"secondTimeZone"})
+    //@Parameters({"secondTimeZone"})
     @Test(description = "Adding second city and verifying")
-    public void addSecondCity(String secondTimeZone){
+    public void addSecondCity(){//(String secondTimeZone){
         WebElement element = webDriver.findElement(By.xpath("//h1[@class='title']"));
         Assert.assertTrue(element.getText().contains(secondTimeZone),
                 "Expected text contains Hyderabad but found"+element.getText());

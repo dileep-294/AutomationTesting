@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c37e8442-0467-4c5d-8d0a-6bf5f6ff29eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SavvyTimeReport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/TestData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/savvyTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/savvyTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
@@ -20,9 +21,10 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/SampleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/testing-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/savvyTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/savvyTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,23 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG./home/dileepj/IdeaProjects/tasks/testing/src/test/resources/savvyTest.xml">
+    <configuration name="DemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test1" />
+      <option name="MAIN_CLASS_NAME" value="com.test1.DemoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LocaleTimeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <extension name="coverage">
@@ -74,7 +93,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="PACKAGE_NAME" value="com.test1" />
       <option name="MAIN_CLASS_NAME" value="com.test1.LocaleTimeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -91,7 +110,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="PACKAGE_NAME" value="com.test1" />
       <option name="MAIN_CLASS_NAME" value="com.test1.LocaleTimeTest" />
       <option name="METHOD_NAME" value="gettingLocalTime" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -101,36 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest.addFirstCity" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test1.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.SampleTest" />
-      <option name="METHOD_NAME" value="addFirstCity" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest.pageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.SampleTest" />
-      <option name="METHOD_NAME" value="pageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,8 +152,8 @@
         <item itemvalue="TestNG./home/dileepj/IdeaProjects/tasks/testing/src/test/resources/savvyTest.xml" />
         <item itemvalue="TestNG.LocaleTimeTest.gettingLocalTime" />
         <item itemvalue="TestNG.LocaleTimeTest" />
-        <item itemvalue="TestNG.SampleTest.pageTitle" />
-        <item itemvalue="TestNG.SampleTest.addFirstCity" />
+        <item itemvalue="TestNG.SampleTest" />
+        <item itemvalue="TestNG.DemoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,22 +206,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1578587935273" />
-    <state width="1253" height="374" key="GridCell.Tab.0.bottom" timestamp="1578630829558">
+    <state width="1253" height="317" key="GridCell.Tab.0.bottom" timestamp="1578637167613">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="374" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1578630829558" />
-    <state width="1253" height="374" key="GridCell.Tab.0.center" timestamp="1578630829555">
+    <state width="1253" height="317" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1578637167613" />
+    <state width="1253" height="317" key="GridCell.Tab.0.center" timestamp="1578637167611">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="374" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1578630829555" />
-    <state width="1253" height="374" key="GridCell.Tab.0.left" timestamp="1578630829554">
+    <state width="1253" height="317" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1578637167611" />
+    <state width="1253" height="317" key="GridCell.Tab.0.left" timestamp="1578637167610">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="374" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1578630829554" />
-    <state width="1253" height="374" key="GridCell.Tab.0.right" timestamp="1578630829556">
+    <state width="1253" height="317" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1578637167610" />
+    <state width="1253" height="317" key="GridCell.Tab.0.right" timestamp="1578637167612">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="374" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1578630829556" />
+    <state width="1253" height="317" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1578637167612" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1578400454658">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

@@ -9,52 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num attn">6</td><td class="num attn">2</td><td class="num">8,330</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num">55,786</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.test.SampleTest</td><td><a href="#m0">loadBeforeMethod</a></td><td rowspan="1">1578630846533</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.test.SampleTest</td><td><a href="#m1">addFirstCity</a></td><td rowspan="1">1578630846518</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m2">addSecondCity</a></td><td rowspan="1">1578630846525</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="6">com.test.SampleTest</td><td><a href="#m3">exit</a></td><td rowspan="1">1578630846551</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">loadBeforeMethod</a></td><td rowspan="5">1578630846551</td><td rowspan="5">0</td></tr><tr class="skippedeven"><td><a href="#m5">loadBeforeMethod</a></td></tr><tr class="skippedeven"><td><a href="#m6">loadBeforeMethod</a></td></tr><tr class="skippedeven"><td><a href="#m7">loadBeforeMethod</a></td></tr><tr class="skippedeven"><td><a href="#m8">loadBeforeMethod</a></td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">com.test.SampleTest</td><td><a href="#m9">deleteTimeZone</a></td><td rowspan="1">1578630846536</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">modifyDate</a></td><td rowspan="1">1578630846537</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m11">pageTitle</a></td><td rowspan="1">1578630846538</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m12">permanantLink</a></td><td rowspan="1">1578630846540</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m13">swapButton</a></td><td rowspan="1">1578630846550</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m14">timeDifference</a></td><td rowspan="1">1578630846551</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test1.LocaleTimeTest</td><td><a href="#m15">gettingLocalTime</a></td><td rowspan="1">1578630842808</td><td rowspan="1">2940</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.test.SampleTest</td><td><a href="#m0">addFirstCity</a></td><td rowspan="1">1578637199222</td><td rowspan="1">64</td></tr><tr class="passedeven"><td><a href="#m1">addSecondCity</a></td><td rowspan="1">1578637203565</td><td rowspan="1">102</td></tr><tr class="passedeven"><td><a href="#m2">deleteTimeZone</a></td><td rowspan="1">1578637207779</td><td rowspan="1">1304</td></tr><tr class="passedeven"><td><a href="#m3">modifyDate</a></td><td rowspan="1">1578637213256</td><td rowspan="1">3301</td></tr><tr class="passedeven"><td><a href="#m4">pageTitle</a></td><td rowspan="1">1578637221206</td><td rowspan="1">53</td></tr><tr class="passedeven"><td><a href="#m5">permanantLink</a></td><td rowspan="1">1578637225341</td><td rowspan="1">566</td></tr><tr class="passedeven"><td><a href="#m6">swapButton</a></td><td rowspan="1">1578637231648</td><td rowspan="1">1478</td></tr><tr class="passedeven"><td><a href="#m7">timeDifference</a></td><td rowspan="1">1578637237827</td><td rowspan="1">50</td></tr><tr class="passedodd"><td rowspan="1">com.test1.LocaleTimeTest</td><td><a href="#m8">gettingLocalTime</a></td><td rowspan="1">1578637186674</td><td rowspan="1">3599</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">com.test.SampleTest#loadBeforeMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;firstTimeZone&apos; is required by BeforeMethod on method loadBeforeMethod but has not been marked @Optional or defined
-
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.SampleTest#addFirstCity</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;firstTimeZone&apos; is required by @Test on method addFirstCity but has not been marked @Optional or defined
-
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test.SampleTest#addSecondCity</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;secondTimeZone&apos; is required by @Test on method addSecondCity but has not been marked @Optional or defined
-
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.test.SampleTest#exit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.test.SampleTest#loadBeforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.test.SampleTest#loadBeforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.test.SampleTest#loadBeforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.test.SampleTest#loadBeforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.test.SampleTest#loadBeforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.test.SampleTest#deleteTimeZone</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;firstTimeZone&apos; is required by BeforeMethod on method loadBeforeMethod but has not been marked @Optional or defined
-
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.test.SampleTest#modifyDate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;firstTimeZone&apos; is required by BeforeMethod on method loadBeforeMethod but has not been marked @Optional or defined
-
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.test.SampleTest#pageTitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;firstTimeZone&apos; is required by BeforeMethod on method loadBeforeMethod but has not been marked @Optional or defined
-
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.test.SampleTest#permanantLink</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;firstTimeZone&apos; is required by BeforeMethod on method loadBeforeMethod but has not been marked @Optional or defined
-
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">com.test.SampleTest#swapButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;firstTimeZone&apos; is required by BeforeMethod on method loadBeforeMethod but has not been marked @Optional or defined
-
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">com.test.SampleTest#timeDifference</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;firstTimeZone&apos; is required by BeforeMethod on method loadBeforeMethod but has not been marked @Optional or defined
-
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">com.test1.LocaleTimeTest#gettingLocalTime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">com.test.SampleTest#addFirstCity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test.SampleTest#addSecondCity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test.SampleTest#deleteTimeZone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.SampleTest#modifyDate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.test.SampleTest#pageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test.SampleTest#permanantLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.test.SampleTest#swapButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.test.SampleTest#timeDifference</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.test1.LocaleTimeTest#gettingLocalTime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
